@@ -22,7 +22,7 @@ struct ContentView: View {
                     play.toggle()
                 }
                 // Uncomment and this breaks
-//                Text("The Value is \(value)")
+                Text("The Value is \(value)")
                 Rectangle()
                     .frame(width: 400, height: 400)
                     .foregroundColor(.clear)

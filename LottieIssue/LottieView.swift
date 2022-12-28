@@ -13,10 +13,8 @@ import Lottie
 
 struct LottieView: UIViewRepresentable {
     let animationName:String
-    
     @Binding var play: Bool
     var animationView:LottieAnimationView
-    
     init(animationName:String,
          play: Binding<Bool> = .constant(true)
     ) {
@@ -31,7 +29,6 @@ struct LottieView: UIViewRepresentable {
             self.parent = parent
             _play = play
         }
-        
     }
     
     func makeCoordinator() -> Coordinator {
