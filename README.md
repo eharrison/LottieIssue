@@ -5,7 +5,7 @@ I am trying to play a Lottie animation when some state updates in my SwiftUI vie
 In the following code, the play button will play the animation on demand,  However, as soon as I introduce a state property that causes a refresh of the view, the animation stops playing.
 Does anyone know how to solve this?
 
-
+![LottieIssue](LottieIssue.gif)
 
 ## LottieView UIViewRepresentable
 
